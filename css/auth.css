@@ -1,0 +1,79 @@
+/* auth.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background:   linear-gradient(rgba(80, 54, 106, 0.6), rgba(55, 99, 109, 0.6)), /* Violet-blue semi-transparent overlay */
+    url('../images/m-1.jpg'); /* Add your image here */
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background: rgba(116, 114, 114, 0.8); /* Light semi-transparent background for the form */
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 90%;
+    position: relative; /* For better control of form's position */
+    z-index: 2; /* Ensure the form is always on top of the background */
+}
+
+.form-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="number"] {
+    padding: 14px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #7c5c5c;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.form-container button {
+    padding: 14px;
+    background: #535f99;
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-container button:hover {
+    background: #464a7a;
+}
+
+.form-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form-container a {
+    color: #1a0662;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
