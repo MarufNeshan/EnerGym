@@ -19,7 +19,7 @@ Features
 Tech Stack
 - PHP
 - MySQL
-- HTML, CSS, JavaScript
+- HTML, CSS, JavaScript, Bootstrap
 
 How to Run
 1. Clone the repository
